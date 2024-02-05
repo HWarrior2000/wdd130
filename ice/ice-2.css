@@ -1,0 +1,47 @@
+body{
+    background-color: gray;
+}
+header .container2 img{width: 100%;}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 20px 40px;
+}
+
+.container2{
+    position: relative;
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+}
+
+  
+  .text-overlay1 {
+    position: absolute;
+    top: 70%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    color: black; /* Adjust text color */
+    font-size: 24px; /* Adjust font size */
+    font-weight: bold; /* Adjust font weight */
+    text-align: center;
+    width: 100%;
+  }
+  .text-overlay2 {
+    position: absolute;
+    top: 80%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    color: black; /* Adjust text color */
+    font-size: 18px; /* Adjust font size */
+    font-weight: bold; /* Adjust font weight */
+    text-align: center;
+    width: 100%;
+  }
+
+.container .small{
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    border: 10px solid;
+}
