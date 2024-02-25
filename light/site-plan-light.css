@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+body{
+    background-color: #92140C;
+}
+header{
+    text-align: center;
+    background-color: #FF9000;
+    padding: 1em;
+    margin: auto 10%;
+}
+
+header h2{
+    color: #11151C;
+}
+
+p{
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: "Lora", serif;
+    color: #E6E6EA;
+}
+
+h1{
+    color: #11151C;
+    font-family: "Anta", sans-serif;
+}
+
+h2, h3{
+    font-family: "Anta", sans-serif;
+    color: #2AB7CA;
+}
+
+main{
+    text-align: center;
+}
+
+.style{
+    margin-top: 50px;
+}
+
+.colors{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 12.5%;
+    margin-right: 12.5%;
+    margin-top: 20px;
+    border-color: #11151C;
+    border-style: groove;
+}
+
+.primary{
+    background-color: #92140C;
+}
+
+.secondary{
+    background-color: #2AB7CA;
+}
+
+.secondary2{
+    background-color: #FF9000;
+}
+
+.accent{
+    background-color: #E6E6EA;
+    color: #11151C;
+}
+
+.accent2{
+    background-color: #11151C;
+}
+
+a{
+    color: #FF9000;
+    text-decoration: none;
+    background-color: #11151C;
+    padding: 10px;
+    border-radius: 2px;
+    font-family: "Lora", serif;
+}
