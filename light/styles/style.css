@@ -1,0 +1,60 @@
+.mini-example{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.mini-bad{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.mini-good{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.after-example{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.after-bad{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.after-good{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.car-example{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.car-bad{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.car-good{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.good-img{
+    z-index: 1;
+}
+
+.bad-img{
+    z-index: 2;
+}
+
+.bad-img:hover {
+    z-index: 1;
+}
+
+.good-img:hover{
+    z-index: 2;
+}
