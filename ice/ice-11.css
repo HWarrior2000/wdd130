@@ -1,0 +1,47 @@
+.main-pic{
+    max-width: 400px;
+}
+
+.profile-pic{
+    max-width: 75px;
+    border-style: hidden;
+    border-radius: 50%;
+}
+
+header{
+    max-width: 380px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0 auto;
+    padding-top: 10px;
+    padding: 10px;
+    background-color: white;
+}
+
+.time{
+    grid-column: 5/6;
+    margin-top: auto;
+    margin-bottom: auto;
+    grid-row: 1/2;
+    margin-right: 30px;
+    font-size: 10px;
+    
+}
+
+.fa-ellipsis-v{
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 40px;
+    grid-column: 5/6;
+    grid-row: 1/2;
+}
+
+.name{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+body{
+    text-align: center;
+    background-color: gray;
+}
