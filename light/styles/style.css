@@ -3,6 +3,10 @@
     grid-template-columns: 1fr;
 }
 
+body{
+    margin: 0;
+}
+
 .mini-bad{
     grid-column: 1/2;
     grid-row: 1/2;
@@ -57,4 +61,72 @@
 
 .good-img:hover{
     z-index: 2;
+}
+
+.header{
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    background-color: #11151C;
+}
+
+#nav{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.logo_link{
+    background-color: #92140C;
+}
+
+.header_link{
+    margin: auto;
+    text-decoration: none;
+    color: white;
+}
+
+.logo_link img{
+    max-width: 200px;
+}
+
+.test1{
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.test2{
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.test3{
+    grid-column: 3/4;
+    grid-row: 1/2;
+}
+
+.test4{
+    grid-column: 4/5;
+    grid-row: 1/2;
+}
+
+.button{
+    background-color: #92140C;
+    width: 90px;
+    height: 50px;
+    margin: auto;
+    border-style: groove;
+    border-radius: 5%;
+}
+
+.banner-img{
+    max-width: 100%;
+}
+
+.footer{
+    display: grid;
+    grid-template-columns: 200px 1fr 80px 70px 50px;
+    background-color: #11151C;
+    align-items: center;
+}
+.logo_footer{
+    max-width: 200px;
 }
