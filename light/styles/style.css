@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 .mini-example{
     display: grid;
     grid-template-columns: 1fr;
@@ -10,11 +12,15 @@ body{
 .mini-bad{
     grid-column: 1/2;
     grid-row: 1/2;
+    width: 400px;
+    height: 615px;
 }
 
 .mini-good{
     grid-column: 1/2;
     grid-row: 1/2;
+    width: 400px;
+    height: 615px;
 }
 
 .after-example{
@@ -25,26 +31,31 @@ body{
 .after-bad{
     grid-column: 1/2;
     grid-row: 1/2;
+    width: 400px;
 }
 
 .after-good{
     grid-column: 1/2;
     grid-row: 1/2;
+    width: 400px;
 }
 
 .car-example{
     display: grid;
     grid-template-columns: 1fr;
+    padding-top: 15px;
 }
 
 .car-bad{
     grid-column: 1/2;
     grid-row: 1/2;
+    width: 400px;
 }
 
 .car-good{
     grid-column: 1/2;
     grid-row: 1/2;
+    width: 400px;
 }
 
 .good-img{
@@ -67,6 +78,8 @@ body{
     display: grid;
     grid-template-columns: 200px 1fr;
     background-color: #11151C;
+    border-bottom-style: double;
+    border-color: white;
 }
 
 #nav{
@@ -126,7 +139,80 @@ body{
     grid-template-columns: 200px 1fr 80px 70px 50px;
     background-color: #11151C;
     align-items: center;
+    margin-top: 40px;
+    border-top-style: double;
 }
+
 .logo_footer{
     max-width: 200px;
+}
+
+.question-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.page-title{
+    border-bottom-style: solid;
+    text-align: center;
+    height: 45px;
+    margin-bottom: 20px;
+}
+
+.left, .middle, .right{
+    margin: 0 auto;
+}
+
+.left, .right{
+    background-color: #92140C;
+    padding: 15px;
+}
+
+.paragraph-right{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom-style: solid;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.paragraph-left{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.examp-img{
+    width: 450px;
+    justify-self: center;
+}
+
+h1, h2, h3, h4, h5, h6, a{
+    font-family: "Anta", Verdana;
+    color: #92140C;
+}
+
+p{
+    font-family: "Lora", Helvetica, sans-serif;
+    color: #FF9000;
+}
+
+.copyRight{
+    font-family: "Lora", Helvetica, sans-serif;
+    color: #FF9000;
+}
+
+.main-txt{
+    font-family: "Lora", Helvetica, sans-serif;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+.everything{
+    background-color: #11151C;
 }
